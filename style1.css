@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Radley:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carlito:ital,wght@0,400;0,700;1,400;1,700&family=Radley:ital@0;1&display=swap');
+
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+}
+
+/* body */
+
+body {
+    background-color: #f4f1e8;
+}
+
+#navbar {
+    transition: top .5s;
+}
+
+.navbar {
+    background: #f4f1e8;
+}
+
+.dropdown-item {
+    font-family: "Radley", serif;
+}
+
+.dropdown-item:hover {
+    border: 1px solid #9b4819;
+    color: #9b4819;
+    background-color: #f4f1e8;
+    border-radius: 50px;
+}
+
+.nav-link {
+    font-size: calc(1rem + 1.2vw);
+    margin: 0 10px;
+    font-family: "Radley", serif;
+}
+
+/* Home */
+
+#home {
+    padding-top: 8rem;
+    background-color: #f4f1e8;
+}
+
+.intro {
+    font-family: "Radley", serif;
+    color: #9b4819 !important;
+    font-size: calc(1rem + 6vw);
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 0 auto;
+    animation: typing 2s steps(200, end);
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+.intro>i {
+    color: black;
+}
+
+.introdown {
+    font-family: "Carlito", sans-serif;
+    font-size: calc(1rem + .8vw);
+}
+
+
+.hm-btm {
+    font-family: "Radley", serif;
+    font-size: calc(1rem + .5vw);
+    padding-bottom: 6rem;
+    margin: 0;
+}
+
+/* Later */
+
+#responsive {
+    background-color: #9b4819;
+}
+
+.res-h1 {
+    font-size: calc(1rem + 4vw);
+    color: black;
+    font-family: "Radley", serif;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.res-p {
+    color: #000;
+    font-family: "Carlito", sans-serif;
+    font-size: calc(1rem + 1vw);
+    text-align: center;
+    padding: 1rem 0 3rem 0;
+}
+
+.responsive-img {
+    justify-content: space-around;
+    padding: 4rem 0 6rem 0;
+}
+
+.responsive-img>img {
+    height: calc(1rem + 15vw);
+}
+
+/* About */
+
+#about {
+    background-color: #f4f1e8;
+}
+
+.abt-img {
+    border-radius: 15rem 15rem 0 0;
+    height: 35rem;
+}
+
+.abt-left {
+    padding-right: 3rem;
+}
+
+.abt-h1 {
+    font-size: calc(1rem + 3.7vw);
+    white-space: nowrap;
+}
+
+.abt-p {
+    font-family: "Carlito", sans-serif;
+    font: bold;
+    font-size: calc(1rem + .7vw);
+}
+
+/* Background */
+
+#background {
+    background-color: #f4f1e8;
+}
+
+.bgtxt {
+    font-size: calc(1rem + 3.7vw);
+    font-family: "Radley", serif;
+    text-align: center;
+    padding-bottom: 2.5rem;
+}
+
+.bg-img {
+    height: 7rem;
+    width: 7rem;
+}
+
+.img-txt {
+    width: 15rem;
+    font-family: "Radley", serif;
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+.hrp {
+    font-family: "Carlito", sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+/* Skills */
+
+#skills {
+    background-color: #f4f1e8;
+}
+
+.skill-txt {
+    padding: 0 5rem;
+}
+
+/* Project */
+
+#project {
+    background-color: #f4f1e8;
+}
+
+.pjtxt {
+    font-size: calc(1rem + 3.7vw);
+    font-family: "Radley", serif;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+/* Contact */
+
+#contact {
+    background-color: #9b4819;
+}
+
+.contact-head {
+    font-size: calc(1rem + 3.7vw);
+    color: #f4f1e8;
+    font-family: "Radley", serif;
+}
+
+.contact-p {
+    color: #f4f1e8;
+    font-family: "Carlito", sans-serif;
+    /* word-spacing: 5px; */
+    letter-spacing: 3px;
+}
+
+.contact-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+}
+
+.contact-img>a>img {
+    height: 2.3rem;
+}
+
+.contact-img>p {
+    font-family: "Radley", serif;
+    color: #f4f1e8;
+    margin: auto 0;
+    font-size: 2.2rem;
+}
+
+.cont-img>div>img {
+    height: 4.5rem;
+}
+
+.cont-img>div>div>p:nth-child(1) {
+    color: #f4f1e8;
+    font-family: "Carlito", sans-serif;
+    letter-spacing: 2px;
+    font-size: calc(1rem + .3vw);
+}
+
+.cont-img>div>div>p:nth-child(2) {
+    color: #f4f1e8;
+    font-family: "Radley", serif;
+    font-size: calc(1rem + .7vw);
+}
+
+/* Utility Classes */
+
+.bg1 {
+    color: #f4f1e8;
+}
+
+.bg2 {
+    color: #9b4819;
+}
+
+.bg3 {
+    background-color: #f4f1e8;
+}
+
+.bg4 {
+    background-color: #9b4819;
+}
+
+.radley {
+    font-family: "Radley", serif;
+}
+
+.carlito {
+    font-family: "Carlito", sans-serif;
+}
+
+.hidden-section {
+    opacity: 0;
+    /* Initial state: fully transparent */
+    transform: translateY(20px);
+    /* Slightly move down */
+    visibility: hidden;
+    /* Hide the element */
+    transition: opacity .8s ease-out, transform 0.6s ease-out;
+}
+
+.hidden-section.is-visible {
+    opacity: 1;
+    /* Fully opaque */
+    transform: none;
+    /* Move to original position */
+    visibility: visible;
+    /* Show the element */
+}
+
+.slide-left {
+    position: relative;
+    opacity: 0;
+    /* Initial state: fully transparent */
+    transform: translateX(20%);
+    /* Start off-screen to the right */
+    transition: opacity 1.5s ease-out, transform 1.5s ease-out;
+}
+
+.slide-left.is-visible {
+    opacity: 1;
+    /* Fully opaque */
+    transform: translateX(0);
+    /* Move to original position */
+}
+
+/* Slide down animation */
+
+.navbar {
+    top: -120px;
+    transition: top 2s ease-out;
+}
+
+.navbar.show {
+    top: 0;
+    /* Slide down to this position */
+}
