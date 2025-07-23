@@ -1,107 +1,158 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Anuj Portfolio</title>
+    <link rel="icon" href="assets/icon.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="style1.css" />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Anuj Portfolio</title>
-  <link rel="icon" href="assets/icon.png">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <!-- <link rel="stylesheet" href="style.css"> -->
-  <link rel="stylesheet" href="style1.css">
-</head>
-
-<body>
-  <nav id="navbar" class="navbar navbar-expand-lg px-5 py-3 fixed-top ">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="index.html"><img src="assets/Logo.png" alt="" height="70px" width="70px"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link bg2 mix" aria-current="page" href="#home">Home</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle bg2" href="#" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
-              About
-            </a>
-            <ul class="dropdown-menu bg4">
-              <li><a class="dropdown-item bg1" href="#about">About Me</a></li>
-              <li><a class="dropdown-item bg1" href="#background">Background</a></li>
-              <li><a class="dropdown-item bg1" href="#skills">Skills</a></li>
-              <li><a class="dropdown-item bg1" href="#project">Projects</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link bg2" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <div id="home">
-    <div class="p-4 text-center">
-      <div class="container py-5">
-        <h1 class="text-body-emphasis intro"><i>Hello,</i> I am Anuj!</h1>
-        <p class="col-lg-7 mx-auto my-4 lead introdown pb-3">
-          Crafting engaging and responsive web experiences with a blend of creativity and code.
-        </p>
-      </div>
-    </div>
-    <p class="text-center bg2 hm-btm"><i>Hire me</i></p>
-  </div>
-  <div id="responsive" class="hidden-section">
-    <div class="d-flex flex-column">
-      <h1 class="res-h1">Responsive!</h1>
-      <p class="res-p">Responsive design is not a trend, it's a necessity.</p>
-      <div class="d-flex responsive-img">
-        <img class="img-fluid" src="assets/monitor.png" alt="">
-        <img class="img-fluid" src="assets/mobile.png" alt="">
-        <img class="img-fluid" src="assets/laptop.png" alt="">
-        <img class="img-fluid" src="assets/tablet.png" alt="">
-      </div>
-    </div>
-  </div>
-  <div id="about" class="py-5 hidden-section">
-    <div class="container col-xxl-10 px-4 py-5">
-      <div class="row flex-lg-row-reverse align-items-center g-4 py-5">
-        <div class="col-12 col-sm-8 col-lg-6">
-          <img src="assets/profile.png" class="d-block mx-lg-auto img-fluid abt-img slide-left" alt="Bootstrap Themes"
-            loading="lazy">
-        </div>
-        <div class="col-lg-6 abt-left">
-          <h1 class="display-5 text-body-emphasis lh-1 mb-3"><i class="bg2 radley abt-h1">About Anuj Prasad</i></h1>
-          <p class="lead abt-p py-4">A front-end developer with a passion for creating beautiful and functional
-            websites. I love
-            turning creative ideas into interactive experiences. My goal is to build responsive, user-friendly websites
-            that look great on any device. Let’s create something amazing together!</p>
+  <body>
+    <nav id="navbar" class="navbar navbar-expand-lg px-5 py-3 fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"
+          ><img src="assets/Logo.png" alt="" height="70px" width="70px"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNavDropdown"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link bg2 mix" aria-current="page" href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle bg2"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                About
+              </a>
+              <ul class="dropdown-menu bg4">
+                <li><a class="dropdown-item bg1" href="#about">About Me</a></li>
+                <li>
+                  <a class="dropdown-item bg1" href="#background">Background</a>
+                </li>
+                <li><a class="dropdown-item bg1" href="#skills">Skills</a></li>
+                <li>
+                  <a class="dropdown-item bg1" href="#project">Projects</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link bg2" href="#contact">Contact</a>
+            </li>
+          </ul>
         </div>
       </div>
+    </nav>
+    <div id="home">
+      <div class="p-4 text-center">
+        <div class="container py-5">
+          <h1 class="text-body-emphasis intro"><i>Hello,</i> I am Anuj!</h1>
+          <p class="col-lg-7 mx-auto my-4 lead introdown pb-3">
+            Crafting engaging and responsive web experiences with a blend of
+            creativity and code.
+          </p>
+        </div>
+      </div>
+      <p class="text-center bg2 hm-btm"><i>Hire me</i></p>
     </div>
-  </div>
-  <div id="background" class="py-5 hidden-section">
-    <p class="bg2 bgtxt">Background</p>
-    <div class="album py-5">
-      <div class="container">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 justify-content-around">
-          <div class="col d-flex flex-column">
-            <img src="assets/university.png" alt="" class="bd-placeholder-img card-img-top bg-img mx-auto">
-            <div class="mx-auto my-3">
-              <p class="card-text img-txt">North Bengal University</p>
-            </div>
-            <hr
-              style="background-color: #9b4819; height: 2px; border: none; border-radius: 25px; opacity: 60%; width: 70%; margin: 0 auto;">
-            <div class="mx-auto my-3">
-              <p class="hrp"><b>Siliguri College</b></p>
-              <p class="hrp">BSc Computer Science, 2022 - 2025</p>
-            </div>
+    <div id="responsive" class="hidden-section">
+      <div class="d-flex flex-column">
+        <h1 class="res-h1">Responsive!</h1>
+        <p class="res-p">Responsive design is not a trend, it's a necessity.</p>
+        <div class="d-flex responsive-img">
+          <img class="img-fluid" src="assets/monitor.png" alt="" />
+          <img class="img-fluid" src="assets/mobile.png" alt="" />
+          <img class="img-fluid" src="assets/laptop.png" alt="" />
+          <img class="img-fluid" src="assets/tablet.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <div id="about" class="py-5 hidden-section">
+      <div class="container col-xxl-10 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-4 py-5">
+          <div class="col-12 col-sm-8 col-lg-6">
+            <img
+              src="assets/profile.png"
+              class="d-block mx-lg-auto img-fluid abt-img slide-left"
+              alt="Bootstrap Themes"
+              loading="lazy"
+            />
           </div>
-          <!-- <div class="col d-flex flex-column">
+          <div class="col-lg-6 abt-left">
+            <h1 class="display-5 text-body-emphasis lh-1 mb-3">
+              <i class="bg2 radley abt-h1">About Anuj Prasad</i>
+            </h1>
+            <p class="lead abt-p py-4">
+              A front-end developer with a passion for creating beautiful and
+              functional websites. I love turning creative ideas into
+              interactive experiences. My goal is to build responsive,
+              user-friendly websites that look great on any device. Let’s create
+              something amazing together!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="background" class="py-5 hidden-section">
+      <p class="bg2 bgtxt">Background</p>
+      <div class="album py-5">
+        <div class="container">
+          <div
+            class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 justify-content-around"
+          >
+            <div class="col d-flex flex-column">
+              <img
+                src="assets/university.png"
+                alt=""
+                class="bd-placeholder-img card-img-top bg-img mx-auto"
+              />
+              <div class="mx-auto my-3">
+                <p class="card-text img-txt">North Bengal University</p>
+              </div>
+              <hr
+                style="
+                  background-color: #9b4819;
+                  height: 2px;
+                  border: none;
+                  border-radius: 25px;
+                  opacity: 60%;
+                  width: 70%;
+                  margin: 0 auto;
+                "
+              />
+              <div class="mx-auto my-3">
+                <p class="hrp"><b>Siliguri College</b></p>
+                <p class="hrp">BSc Computer Science, 2022 - 2025</p>
+              </div>
+            </div>
+            <!-- <div class="col d-flex flex-column">
             <img src="assets/internship.png" alt="" class="bd-placeholder-img card-img-top bg-img mx-auto">
             <div class="mx-auto my-3">
               <p class="card-text img-txt">North Bengal University</p>
@@ -113,185 +164,477 @@
               <p class="hrp">BSc Computer Science, 2022 - 2025</p>
             </div>
           </div> -->
-          <div class="col d-flex flex-column my-auto">
-            <a href="assets/resume.pdf" target="_blank" class="d-flex"><img src="assets/extra.png" alt="" class="bd-placeholder-img card-img-top bg-img mx-auto"></a>
-            <div class="mx-auto my-3">
-              <p class="card-text img-txt"><a href="assets/resume.pdf" target="_blank" class="text-decoration-none text-reset">Resume</a></p>
-            </div>
-            <!-- <hr
+            <div class="col d-flex flex-column my-auto">
+              <a href="assets/resume.pdf" target="_blank" class="d-flex"
+                ><img
+                  src="assets/extra.png"
+                  alt=""
+                  class="bd-placeholder-img card-img-top bg-img mx-auto"
+              /></a>
+              <div class="mx-auto my-3">
+                <p class="card-text img-txt">
+                  <a
+                    href="assets/resume.pdf"
+                    target="_blank"
+                    class="text-decoration-none text-reset"
+                    >Resume</a
+                  >
+                </p>
+              </div>
+              <!-- <hr
               style="background-color: #9b4819; height: 2px; border: none; border-radius: 25px; opacity: 60%; width: 70%; margin: 0 auto;">
             <div class="mx-auto my-3">
               <p class="hrp"><b>Siliguri College</b></p>
               <p class="hrp">BSc Computer Science, 2022 - 2025</p>
             </div> -->
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div id="skills" class="py-5 hidden-section">
-    <p class="bg2 bgtxt">Skills</p>
-    <div class="album py-5">
-      <div class="container">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-          <div class="col d-flex flex-column">
-            <img src="assets/html.png" alt="" class="bd-placeholder-img card-img-top bg-img mx-auto">
-            <div class="mx-auto my-3">
-              <p class="card-text img-txt">HTML</p>
-            </div>
-            <hr
-              style="background-color: #9b4819; height: 2px; border: none; border-radius: 25px; opacity: 60%; width: 70%; margin: 0 auto;">
-            <div class="mx-auto my-3">
-              <p class="hrp skill-txt">Structuring the web with clean and semantic HTML.</p>
-            </div>
-          </div>
-          <div class="col d-flex flex-column">
-            <img src="assets/css.png" alt="" class="bd-placeholder-img card-img-top bg-img mx-auto">
-            <div class="mx-auto my-3">
-              <p class="card-text img-txt">CSS</p>
-            </div>
-            <hr
-              style="background-color: #9b4819; height: 2px; border: none; border-radius: 25px; opacity: 60%; width: 70%; margin: 0 auto;">
-            <div class="mx-auto my-3">
-              <p class="hrp skill-txt">Styling the web with precision and creativity using CSS.</p>
-            </div>
-          </div>
-          <div class="col d-flex flex-column">
-            <img src="assets/javascript.png" alt="" class="bd-placeholder-img card-img-top bg-img mx-auto">
-            <div class="mx-auto my-3">
-              <p class="card-text img-txt">JavaScript</p>
-            </div>
-            <hr
-              style="background-color: #9b4819; height: 2px; border: none; border-radius: 25px; opacity: 60%; width: 70%; margin: 0 auto;">
-            <div class="mx-auto my-3">
-              <p class="hrp skill-txt">Bringing interactivity and dynamism to the web with JavaScript.</p>
-            </div>
-          </div>
-          <div class="col d-flex flex-column">
-            <img src="assets/bootstrap.png" alt="" class="bd-placeholder-img card-img-top bg-img mx-auto">
-            <div class="mx-auto my-3">
-              <p class="card-text img-txt">Bootstrap</p>
-            </div>
-            <hr
-              style="background-color: #9b4819; height: 2px; border: none; border-radius: 25px; opacity: 60%; width: 70%; margin: 0 auto;">
-            <div class="mx-auto my-3">
-              <p class="hrp skill-txt">Crafting responsive, web designs with elegance and efficiency.</p>
-            </div>
-          </div>
-          <div class="col d-flex flex-column">
-            <img src="assets/c.png" alt="" class="bd-placeholder-img card-img-top bg-img mx-auto">
-            <div class="mx-auto my-3">
-              <p class="card-text img-txt">C</p>
-            </div>
-            <hr
-              style="background-color: #9b4819; height: 2px; border: none; border-radius: 25px; opacity: 60%; width: 70%; margin: 0 auto;">
-            <div class="mx-auto my-3">
-              <p class="hrp skill-txt">The foundational language powering modern tech.</p>
-            </div>
-          </div>
-          <div class="col d-flex flex-column">
-            <img src="assets/canva-logo.webp" alt="" class="bd-placeholder-img card-img-top bg-img mx-auto">
-            <div class="mx-auto my-3">
-              <p class="card-text img-txt">C</p>
-            </div>
-            <hr
-              style="background-color: #9b4819; height: 2px; border: none; border-radius: 25px; opacity: 60%; width: 70%; margin: 0 auto;">
-            <div class="mx-auto my-3">
-              <p class="hrp skill-txt">Create stunning visuals effortlessly with Canva's intuitive design tools.</p>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <div id="project" class="py-5 hidden-section">
-    <p class="bg2 pjtxt">Project Gallery</p>
-    <p class="text-center carlito fs-3 mb-5">Here are some of the projects I worked on</p>
-    <div class="album py-5">
-      <div class="container">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-          <div class="col d-flex flex-column">
-            <a href="https://anujprasad0.github.io/TheDosaJunction/" target="_blank" class="d-flex"><img
-                src="assets/thedosajunction.png" alt="" class="bd-placeholder-img card-img-top bg-img mx-auto"></a>
-            <div class="mx-auto my-3">
-              <p class="card-text img-txt"><a href="https://anujprasad0.github.io/TheDosaJunction/" target="_blank"
-                  class="text-decoration-none text-reset">The Dosa Junction</a></p>
+    <div id="skills" class="py-5 hidden-section">
+      <p class="bg2 bgtxt">Skills</p>
+      <div class="album py-5">
+        <div class="container">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col d-flex flex-column">
+              <img
+                src="assets/html.png"
+                alt=""
+                class="bd-placeholder-img card-img-top bg-img mx-auto"
+              />
+              <div class="mx-auto my-3">
+                <p class="card-text img-txt">HTML</p>
+              </div>
+              <hr
+                style="
+                  background-color: #9b4819;
+                  height: 2px;
+                  border: none;
+                  border-radius: 25px;
+                  opacity: 60%;
+                  width: 70%;
+                  margin: 0 auto;
+                "
+              />
+              <div class="mx-auto my-3">
+                <p class="hrp skill-txt">
+                  Structuring the web with clean and semantic HTML.
+                </p>
+              </div>
             </div>
-            <hr
-              style="background-color: #9b4819; height: 2px; border: none; border-radius: 25px; opacity: 60%; width: 70%; margin: 0 auto;">
-            <div class="mx-auto my-3">
-              <p class="hrp skill-txt">It's a website for a Cafe.</p>
+            <div class="col d-flex flex-column">
+              <img
+                src="assets/css.png"
+                alt=""
+                class="bd-placeholder-img card-img-top bg-img mx-auto"
+              />
+              <div class="mx-auto my-3">
+                <p class="card-text img-txt">CSS</p>
+              </div>
+              <hr
+                style="
+                  background-color: #9b4819;
+                  height: 2px;
+                  border: none;
+                  border-radius: 25px;
+                  opacity: 60%;
+                  width: 70%;
+                  margin: 0 auto;
+                "
+              />
+              <div class="mx-auto my-3">
+                <p class="hrp skill-txt">
+                  Styling the web with precision and creativity using CSS.
+                </p>
+              </div>
+            </div>
+            <div class="col d-flex flex-column">
+              <img
+                src="assets/scss.png"
+                alt=""
+                class="bd-placeholder-img card-img-top bg-img mx-auto"
+              />
+              <div class="mx-auto my-3">
+                <p class="card-text img-txt">SCSS</p>
+              </div>
+              <hr
+                style="
+                  background-color: #9b4819;
+                  height: 2px;
+                  border: none;
+                  border-radius: 25px;
+                  opacity: 60%;
+                  width: 70%;
+                  margin: 0 auto;
+                "
+              />
+              <div class="mx-auto my-3">
+                <p class="hrp skill-txt">
+                  Craft beautiful, responsive styles with SCSS’s smart, reusable
+                  design syntax
+                </p>
+              </div>
+            </div>
+            <div class="col d-flex flex-column">
+              <img
+                src="assets/javascript.png"
+                alt=""
+                class="bd-placeholder-img card-img-top bg-img mx-auto"
+              />
+              <div class="mx-auto my-3">
+                <p class="card-text img-txt">JavaScript</p>
+              </div>
+              <hr
+                style="
+                  background-color: #9b4819;
+                  height: 2px;
+                  border: none;
+                  border-radius: 25px;
+                  opacity: 60%;
+                  width: 70%;
+                  margin: 0 auto;
+                "
+              />
+              <div class="mx-auto my-3">
+                <p class="hrp skill-txt">
+                  Bringing interactivity and dynamism to the web with
+                  JavaScript.
+                </p>
+              </div>
+            </div>
+            <div class="col d-flex flex-column">
+              <img
+                src="assets/node.png"
+                alt=""
+                class="bd-placeholder-img card-img-top bg-img mx-auto"
+              />
+              <div class="mx-auto my-3">
+                <p class="card-text img-txt">Node JS</p>
+              </div>
+              <hr
+                style="
+                  background-color: #9b4819;
+                  height: 2px;
+                  border: none;
+                  border-radius: 25px;
+                  opacity: 60%;
+                  width: 70%;
+                  margin: 0 auto;
+                "
+              />
+              <div class="mx-auto my-3">
+                <p class="hrp skill-txt">
+                  Streamline logic, serve dynamic data, and handle async like a
+                  pro—Node.js brings server-side magic to life.
+                </p>
+              </div>
+            </div>
+            <div class="col d-flex flex-column">
+              <img
+                src="assets/react.png"
+                alt=""
+                class="bd-placeholder-img card-img-top bg-img mx-auto"
+              />
+              <div class="mx-auto my-3">
+                <p class="card-text img-txt">React</p>
+              </div>
+              <hr
+                style="
+                  background-color: #9b4819;
+                  height: 2px;
+                  border: none;
+                  border-radius: 25px;
+                  opacity: 60%;
+                  width: 70%;
+                  margin: 0 auto;
+                "
+              />
+              <div class="mx-auto my-3">
+                <p class="hrp skill-txt">
+                  From UI sparkles to stateful symphonies—React makes your
+                  frontend sing.
+                </p>
+              </div>
+            </div>
+            <div class="col d-flex flex-column">
+              <img
+                src="assets/gsap.png"
+                alt=""
+                class="bd-placeholder-img card-img-top bg-img mx-auto rounded-circle"
+              />
+              <div class="mx-auto my-3">
+                <p class="card-text img-txt">GSAP</p>
+              </div>
+              <hr
+                style="
+                  background-color: #9b4819;
+                  height: 2px;
+                  border: none;
+                  border-radius: 25px;
+                  opacity: 60%;
+                  width: 70%;
+                  margin: 0 auto;
+                "
+              />
+              <div class="mx-auto my-3">
+                <p class="hrp skill-txt">
+                  Bring your websites to life with GSAP’s lightning-fast,
+                  buttery-smooth animations.
+                </p>
+              </div>
+            </div>
+            <div class="col d-flex flex-column">
+              <img
+                src="assets/tailwind.png"
+                alt=""
+                class="bd-placeholder-img card-img-top bg-img mx-auto"
+              />
+              <div class="mx-auto my-3">
+                <p class="card-text img-txt">Tailwind</p>
+              </div>
+              <hr
+                style="
+                  background-color: #9b4819;
+                  height: 2px;
+                  border: none;
+                  border-radius: 25px;
+                  opacity: 60%;
+                  width: 70%;
+                  margin: 0 auto;
+                "
+              />
+              <div class="mx-auto my-3">
+                <p class="hrp skill-txt">
+                  Build sleek, responsive interfaces at lightning speed—Tailwind
+                  gives you the tools, you set the vibe.
+                </p>
+              </div>
+            </div>
+            <div class="col d-flex flex-column">
+              <img
+                src="assets/bootstrap.png"
+                alt=""
+                class="bd-placeholder-img card-img-top bg-img mx-auto"
+              />
+              <div class="mx-auto my-3">
+                <p class="card-text img-txt">Bootstrap</p>
+              </div>
+              <hr
+                style="
+                  background-color: #9b4819;
+                  height: 2px;
+                  border: none;
+                  border-radius: 25px;
+                  opacity: 60%;
+                  width: 70%;
+                  margin: 0 auto;
+                "
+              />
+              <div class="mx-auto my-3">
+                <p class="hrp skill-txt">
+                  Crafting responsive, web designs with elegance and efficiency.
+                </p>
+              </div>
+            </div>
+            <div class="col d-flex flex-column">
+              <img
+                src="assets/c.png"
+                alt=""
+                class="bd-placeholder-img card-img-top bg-img mx-auto"
+              />
+              <div class="mx-auto my-3">
+                <p class="card-text img-txt">C</p>
+              </div>
+              <hr
+                style="
+                  background-color: #9b4819;
+                  height: 2px;
+                  border: none;
+                  border-radius: 25px;
+                  opacity: 60%;
+                  width: 70%;
+                  margin: 0 auto;
+                "
+              />
+              <div class="mx-auto my-3">
+                <p class="hrp skill-txt">
+                  The foundational language powering modern tech.
+                </p>
+              </div>
+            </div>
+            <div class="col d-flex flex-column">
+              <img
+                src="assets/canva-logo.webp"
+                alt=""
+                class="bd-placeholder-img card-img-top bg-img mx-auto"
+              />
+              <div class="mx-auto my-3">
+                <p class="card-text img-txt">Canva</p>
+              </div>
+              <hr
+                style="
+                  background-color: #9b4819;
+                  height: 2px;
+                  border: none;
+                  border-radius: 25px;
+                  opacity: 60%;
+                  width: 70%;
+                  margin: 0 auto;
+                "
+              />
+              <div class="mx-auto my-3">
+                <p class="hrp skill-txt">
+                  Create stunning visuals effortlessly with Canva's intuitive
+                  design tools.
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <div id="contact" class="pt-5 hidden-section">
-    <div class="container pt-2">
-      <div class="row featurette d-flex justify-content-center align-items-center">
-        <div class="col-md-7 order-md-1">
-          <h2 class="featurette-heading fw-normal lh-1 contact-head">Reach out if you want to create impactful visual
-            Website.</h2>
-          <hr
-            style="background-color: #bd8f53; height: 2px; border: none; border-radius: 25px; opacity: 100%; width:92%; margin-top: 4rem;">
-          <p class="lead contact-p">TO SEE MORE OF MY WORK, VISIT MY SOCIALS:</p>
-          <div class="contact-img">
-            <a href="https://www.facebook.com/anujprasad65" target="_blank"><img src="assets/facebook.png" alt=""></a>
-            <a href="https://www.instagram.com/anujprasad0" target="_blank"><img src="assets/instagram.png" alt=""></a>
-            <!-- <a href="#" target="_blank"><img src="assets/twitter.png" alt=""></a> -->
-            <a href="https://www.linkedin.com/in/anuj-prasad-583961274" target="_blank"><img src="assets/linkedin.png" alt=""></a>
-            <a href="https://github.com/AnujPrasad0" target="_blank"><img src="assets/github.png" alt=""></a>
-            <p><i>@anujprasadO</i></p>
+    <div id="project" class="py-5 hidden-section">
+      <p class="bg2 pjtxt">Project Gallery</p>
+      <p class="text-center carlito fs-3 mb-5">
+        Here are some of the projects I worked on
+      </p>
+      <div class="album py-5">
+        <div class="container">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col d-flex flex-column">
+              <a
+                href="https://anujprasad0.github.io/TheDosaJunction/"
+                target="_blank"
+                class="d-flex"
+                ><img
+                  src="assets/thedosajunction.png"
+                  alt=""
+                  class="bd-placeholder-img card-img-top bg-img mx-auto"
+              /></a>
+              <div class="mx-auto my-3">
+                <p class="card-text img-txt">
+                  <a
+                    href="https://anujprasad0.github.io/TheDosaJunction/"
+                    target="_blank"
+                    class="text-decoration-none text-reset"
+                    >The Dosa Junction</a
+                  >
+                </p>
+              </div>
+              <hr
+                style="
+                  background-color: #9b4819;
+                  height: 2px;
+                  border: none;
+                  border-radius: 25px;
+                  opacity: 60%;
+                  width: 70%;
+                  margin: 0 auto;
+                "
+              />
+              <div class="mx-auto my-3">
+                <p class="hrp skill-txt">It's a website for a Cafe.</p>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="col-md-5 order-md-2">
-          <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+      </div>
+    </div>
+    <div id="contact" class="pt-5 hidden-section">
+      <div class="container pt-2">
+        <div
+          class="row featurette d-flex justify-content-center align-items-center"
+        >
+          <div class="col-md-7 order-md-1">
+            <h2 class="featurette-heading fw-normal lh-1 contact-head">
+              Reach out if you want to create impactful visual Website.
+            </h2>
+            <hr
+              style="
+                background-color: #bd8f53;
+                height: 2px;
+                border: none;
+                border-radius: 25px;
+                opacity: 100%;
+                width: 92%;
+                margin-top: 4rem;
+              "
+            />
+            <p class="lead contact-p">
+              TO SEE MORE OF MY WORK, VISIT MY SOCIALS:
+            </p>
+            <div class="contact-img">
+              <a href="https://www.facebook.com/anujprasad65" target="_blank"
+                ><img src="assets/facebook.png" alt=""
+              /></a>
+              <a href="https://www.instagram.com/anujprasad0" target="_blank"
+                ><img src="assets/instagram.png" alt=""
+              /></a>
+              <!-- <a href="#" target="_blank"><img src="assets/twitter.png" alt=""></a> -->
+              <a
+                href="https://www.linkedin.com/in/anuj-prasad-583961274"
+                target="_blank"
+                ><img src="assets/linkedin.png" alt=""
+              /></a>
+              <a href="https://github.com/AnujPrasad0" target="_blank"
+                ><img src="assets/github.png" alt=""
+              /></a>
+              <p><i>@anujprasadO</i></p>
+            </div>
+          </div>
+          <div class="col-md-5 order-md-2">
+            <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
             height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
             preserveAspectRatio="xMidYMid slice" focusable="false">
             <title>Placeholder</title>
             <rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%"
               fill="var(--bs-secondary-color)" dy=".3em">500x500</text>
           </svg> -->
+          </div>
         </div>
       </div>
-    </div>
-    <div class="container pb-5">
-      <div class="row featurette d-flex justify-content-center align-items-center">
-        <div class="col-md-5 order-md-2">
-          <div class="cont-img">
-            <div class="d-flex align-items-center py-5">
-              <img src="assets/call.png" alt="">
-              <div class="d-flex flex-column justify-content-center px-3 h-25">
-                <p class="my-auto">PHONE</p>
-                <p class="m-auto">+91 7908514772</p>
+      <div class="container pb-5">
+        <div
+          class="row featurette d-flex justify-content-center align-items-center"
+        >
+          <div class="col-md-5 order-md-2">
+            <div class="cont-img">
+              <div class="d-flex align-items-center py-5">
+                <img src="assets/call.png" alt="" />
+                <div
+                  class="d-flex flex-column justify-content-center px-3 h-25"
+                >
+                  <p class="my-auto">PHONE</p>
+                  <p class="m-auto">+91 7908514772</p>
+                </div>
               </div>
-            </div>
-            <div class="d-flex align-items-center py-4">
-              <img src="assets/email.png" alt="">
-              <div class="d-flex flex-column justify-content-center px-3">
-                <p class="my-auto">EMAIL</p>
-                <p class="m-auto">prasadanuj65@gmail.com</p>
+              <div class="d-flex align-items-center py-4">
+                <img src="assets/email.png" alt="" />
+                <div class="d-flex flex-column justify-content-center px-3">
+                  <p class="my-auto">EMAIL</p>
+                  <p class="m-auto">prasadanuj65@gmail.com</p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="col-md-7 order-md-1">
-          <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+          <div class="col-md-7 order-md-1">
+            <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
             height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
             preserveAspectRatio="xMidYMid slice" focusable="false">
             <title>Placeholder</title>
             <rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%"
               fill="var(--bs-secondary-color)" dy=".3em">500x500</text>
           </svg> -->
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
-  <script src="script.js"></script>
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
 </html>
